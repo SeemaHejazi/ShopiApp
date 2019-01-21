@@ -1,0 +1,167 @@
+html,
+body {
+  background-color: #fff;
+  color: #636b6f;
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
+  height: 100vh;
+  margin: 0;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.full-width {
+  width: 100vw;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 40%
+}
+
+.content {
+  text-align: center;
+}
+
+.content-section {
+  margin-top: 15px;
+  margin-bottom: 200px;
+}
+
+
+.links > a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.m-b-md {
+  margin-bottom: 30px;
+}
+
+.app-header {
+  border-bottom: thin solid #E7E9EA;
+  line-height: 1;
+
+  .navbar-brand {
+    height: unset;
+    width: unset;
+  }
+}
+
+.title {
+  font-size: 72px;
+  font-family: "Raleway", sans-serif;
+}
+
+
+#footer {
+  background-color: #333;
+  bottom: 0;
+  color: #fff;
+  margin-top: 30px;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+}
+
+.card {
+  margin: 5px;
+
+  .card-body {
+    padding-bottom: 0.5rem;
+  }
+
+  .img-box {
+    margin: 5px;
+
+    &.center-align {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .book-img {
+    max-width: 100%;
+  }
+
+  .card-title {
+    color: #636b6f;
+    font-weight: bold;
+  }
+
+  .card-text {
+    padding: 6px;
+  }
+
+  .card-text.label {
+    font-weight: bold;
+    margin-bottom: 0;
+    width: 50%;
+
+    &.price {
+      font-size: 18px;
+      text-align: right;
+    }
+
+    &.stock {
+      font-size: 16px;
+      text-align: left;
+      font-style: italic;
+    }
+  }
+
+  .card-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem 0.75rem;
+
+    .card-link {
+      font-size: 1rem;
+    }
+  }
+
+  .btn-orange {
+    color: #fff;
+    background-color: #ff9f4a;
+    border-color: #ff8417;
+
+    &:hover {
+      background-color: darken(#ff9f4a, 20%);
+      border-color: darken(#ff8417, 10%);
+    }
+  }
+}
+
+.cart-badge {
+  color: #fff;
+  background-color: #ff9f4a;
+  border-color: #ff8417;
+  font-size: 100%;
+}
+
+.table.cart {
+  margin-bottom: 0;
+
+  .cart-image.book-img {
+    max-width: 125px;
+  }
+}
+
